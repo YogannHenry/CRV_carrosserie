@@ -1,8 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
+  ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'raleway': ['Raleway', 'sans-serif'],
+      'Cormorant_Garamond': ['Cormorant Garamond', 'serif'],
+      'Dancing_Script': ['Dancing Script', 'cursive'],
+      'Libre_Baskerville': ['Libre Baskerville', 'serif'],
+      'Lobster': ['Lobster', 'sans-serif'],
+      'Open_Sans': ['Open Sans', 'sans-serif'],
+    },
+    extend: {
+      boxShadow: {
+        'round': '1px 1px 10px 1px',
+      }
+    },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui")
+  ],
 };

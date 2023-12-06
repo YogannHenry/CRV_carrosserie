@@ -1,10 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <p class="flex items-center pt-20 justify-center text-2xl"> CRV coucou </p>
-</template>
-
-<script setup></script>
-=======
     <div class="bg-black">
  <div class="pt-20">
       <img src="../assets/images/logoCRV_PNG.png" alt="logo" class="w-4/6 mx-auto" />
@@ -94,4 +88,3 @@ import { WrenchScrewdriverIcon, UsersIcon, KeyIcon } from '@heroicons/vue/24/out
 
 
 </script>
->>>>>>> fix_main_branch

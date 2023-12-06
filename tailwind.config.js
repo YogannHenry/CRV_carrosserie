@@ -1,12 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-<<<<<<< HEAD
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [require("daisyui")],
-=======
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}"
@@ -29,5 +22,4 @@ module.exports = {
   plugins: [
     require("daisyui")
   ],
->>>>>>> fix_main_branch
 };

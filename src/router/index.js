@@ -1,11 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-<<<<<<< HEAD
-import AboutView from "../views/AboutView.vue";
-=======
 import ContactView from "../views/ContactView.vue";
 import Realisations from "../views/Realisations.vue";
->>>>>>> fix_main_branch
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,13 +12,6 @@ const router = createRouter({
       component: HomeView,
     },
     {
-<<<<<<< HEAD
-      path: "/about",
-      name: "about",
-
-      component: AboutView,
-    },
-=======
       path: "/contact",
       name: "contact",
       component: ContactView,
@@ -32,7 +21,6 @@ const router = createRouter({
       name:  "realisations",
       component: Realisations,
     }
->>>>>>> fix_main_branch
   ],
 });
 

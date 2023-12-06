@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-black">
- <div class="pt-20">
+  <div class="bg-black">
+    <div class="pt-20">
       <img src="../assets/images/logoCRV_PNG.png" alt="logo" class="w-4/6 mx-auto" />
     </div>
     <div class="flex flex-col items-center">
@@ -9,7 +9,7 @@
   </div>
   <div class="bg-black text-base-100 pt-16 pl-5">
     <h1 class="text-4xl font-semibold font-Open_Sans">CARROSSERIE -
-        REPARATIONS </h1>
+      REPARATIONS </h1>
   </div>
   <div class="bg-black flex justify-end  flex-col">
     <div class="p-5 ">
@@ -70,20 +70,25 @@
   </div>
 
 
-  <div class="bg-black text-base-100 pt-20 p-5 h-screen">
+  <div class="bg-black text-base-100 py-20 p-5 h-auto">
     <h1 class="text-5xl  text-center font-semibold font-Open_Sans">CHOISISSEZ CRV POUR PRENDRE SOIN DE VOTRE VEHICULE.
 
     </h1>
     <div class="flex justify-center pt-20">
-    <RouterLink to="/contact" class="btn border-lime-500 border-2 text-lime-500 bg-black hover:bg-lime-500 hover:text-black hover:border-black">CONTACTEZ-NOUS
-    </RouterLink>
+      <RouterLink to="/contact"
+        class="btn border-lime-500 border-2 text-lime-500 bg-black hover:bg-lime-500 hover:text-black hover:border-black">
+        CONTACTEZ-NOUS
+      </RouterLink>
     </div>
   </div>
-  
+  <Footer />
+  <SocialsNetwork />
 </template>
 
 <script setup>
 import HomeIcon from '@/components/HomeIcon.vue'
+import Footer from '@/components/Footer.vue'
+import SocialsNetwork from '../components/SocialsNetwork.vue';
 import { WrenchScrewdriverIcon, UsersIcon, KeyIcon } from '@heroicons/vue/24/outline'
 
 

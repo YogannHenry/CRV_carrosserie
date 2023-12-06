@@ -51,3 +51,7 @@ npm run preview
 npm run lint
 
 ```
+<<<<<<< HEAD
+=======
+# CRV_carrosserie
+>>>>>>> fix_main_branch

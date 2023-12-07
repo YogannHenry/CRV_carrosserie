@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center  flex-col text-2xl bg-black h-screen">
+  <div class="flex items-center  flex-col text-2xl bg-black">
     <div class="pt-10">
       <img src="../assets/images/logoCRV_PNG.png" alt="logo" class="w-4/6 mx-auto" />
     </div>
@@ -8,12 +8,16 @@
       <h3 class="text-lg pb-5 font-Dancing_Script text-white">Carrosserie - Réparations</h3>
     </div>
 
-    <GoogleMap api-key="AIzaSyDwSMAXe5qpgMnfz4XKwc-7aBAI7IQN9a8" style="width: 100%; height: 200px" :center="center" class="px-5"
+    <GoogleMap api-key="AIzaSyDwSMAXe5qpgMnfz4XKwc-7aBAI7IQN9a8" style="width: 100%; height: 300px" :center="center" class="px-5 lg:px-40"
       :zoom="14">
       <Marker :options="{ position: center }" />
     </GoogleMap>
 
-    <div class="pt-16 mx-4">
+    <button @click="launchNavigation" class=" p-2 mt-10 bg-lime-500 text-black rounded-md">Lancer l'itinéraire</button>
+
+   
+    <div class="py-16 mx-4">
+      
       <div
         class="text-lg flex flex-col font-Open_Sans text-white border border-white rounded-lg p-5  shadow-round  shadow-white">
 
@@ -62,9 +66,16 @@ import { GoogleMap, Marker } from "vue3-google-map";
 export default defineComponent({
   components: { GoogleMap, Marker },
   setup() {
-    const center = { lat: 49.11567687988281, lng: -0.18261441588401794 };
+    const center = { lat: 49.115666324581525, lng: -0.18253721965668682 };
 
-    return { center };
+    const launchNavigation = () => {
+      const { lat, lng } = center;
+      const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+
+      window.open(googleMapsUrl); 
+    };
+
+    return { center, launchNavigation };
   },
 });
 </script>

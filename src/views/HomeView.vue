@@ -8,7 +8,7 @@
     <div class="flex items-start lg:pt-10 test">
       <div class="lg:flex lg:flex-col lg:w-1/2">
         <div class="p-5 ">
-          <p class="font-Open_Sans text-md text-base-300 lg:text-2xl lg:w-5/6">
+          <p class="font-Open_Sans text-lg text-base-300 lg:text-2xl lg:w-5/6">
             Nous sommes spécialisés dans toutes les marques et modèles de véhicules. Nous sommes des mécaniciens honnêtes
             et
             éthiques qui travaillent pour desservir la région Caennaise.
@@ -47,7 +47,7 @@
         <h2 class="text-4xl font-semibold font-Open_Sans lg:text-5xl">NOS SERVICES</h2>
       </div>
       <div class="p-5 ">
-        <p class="font-Open_Sans text-md lg:text-lg">
+        <p class="font-Open_Sans text-lg lg:text-lg">
           Découvrez notre expertise exceptionnelle en carrosserie automobile ! Notre équipe de professionnels qualifiés
           est
           prête à redonner vie à votre véhicule. Des réparations précises suite à un accident à la peinture personnalisée,
@@ -70,7 +70,7 @@
         <h2 class="text-4xl font-semibold font-Open_Sans lg:text-5xl">LE RESPECT DES COULEURS</h2>
       </div>
       <div class="p-5 ">
-        <p class="font-Open_Sans text-md lg:text-lg">
+        <p class="font-Open_Sans text-lg lg:text-lg">
           Découvrez l'excellence de notre atelier de carrosserie, où la qualité rencontre l'innovation ! Nous sommes fiers
           de vous proposer des prestations exceptionnelles, utilisant les dernières peintures approuvées par les
           principaux

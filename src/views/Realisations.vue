@@ -11,42 +11,42 @@
     <div class="carousel  rounded-box">
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.32 (1).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo1.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.32 (2).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo2.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.32 (3).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo3.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
-        <img class="object-cover  w-96 " src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.32.jpeg"
+        <img class="object-cover  w-96 " src="../assets/images/réalisations/photo4.jpeg"
           alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.33 (1).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo5.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/Réalisations/WhatsApp Image 2023-12-05 at 10.41.33 (4).jpeg" alt="Burger" />
+          src="../assets/images/Réalisations/photo6.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.34 (1).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo7.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.34 (2).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo8.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
         <img class="object-cover  w-96 "
-          src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.34 (3).jpeg" alt="Burger" />
+          src="../assets/images/réalisations/photo9.jpeg" alt="Burger" />
       </div>
       <div class="carousel-item">
-      <img class="object-cover  w-96 " src="../assets/images/réalisations/WhatsApp Image 2023-12-05 at 10.41.34.jpeg"
+      <img class="object-cover  w-96 " src="../assets/images/réalisations/photo10.jpeg"
         alt="Burger" />
     </div>
   </div>

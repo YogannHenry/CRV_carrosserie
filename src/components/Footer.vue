@@ -1,6 +1,6 @@
 <template>
-<footer class="text-white bg-black body-font">
-  <div class="container px-5 py-24 mx-auto">
+<footer class="text-white bg-black body-font ">
+  <div class="container px-5 py-24 mx-auto ">
     <div class="flex flex-wrap md:text-left text-center order-first">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">SERVICES</h2>
@@ -39,6 +39,7 @@
           </li>
         </nav>
       </div>
+     
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CONTACT</h2>
         <nav class="list-none mb-10">
@@ -56,7 +57,18 @@
           </li>
         </nav>
       </div>
-    
+
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium tracking-widest text-sm mb-3">ADRESSE</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a >20 ZI Les grandes carrières</a>
+          </li>
+          <li>
+            <a >MOULT</a>
+          </li>
+        </nav>
+      </div>
     </div>
   </div>
   <div class="bg-gray-100">

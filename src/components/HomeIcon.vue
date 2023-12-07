@@ -1,10 +1,10 @@
 <template>
     
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center md:w-1/5 w-48">
       <div class="border rounded p-2 shadow-sm shadow-white">
         <slot></slot>
       </div>
-    <p class="font-Open_Sans text-sm text-base-300 w-2/4 text-center mt-3 pt-3 border-t-2">
+    <p class="font-Open_Sans text-sm text-base-300  text-center mt-3 pt-3 border-t-2">
       {{ description }}
     </p>
     </div>

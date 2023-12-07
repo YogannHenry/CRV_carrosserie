@@ -1,29 +1,24 @@
 <template>
-  <div class="bg-black">
-    <div class="pt-20">
-      <img src="../assets/images/logoCRV_PNG.png" alt="logo" class="w-4/6 mx-auto" />
-    </div>
-    <div class="flex flex-col items-center">
-      <h2 class="text-5xl pt-5 font-semibold font-Cormorant_Garamond text-lime-500">CRV</h2>
-    </div>
-  </div>
+ <HomeLogo />
   <div class="bg-black text-base-100 pt-16 pl-5">
-    <h1 class="text-4xl font-semibold font-Open_Sans">CARROSSERIE -
-      REPARATIONS </h1>
+    <h1 class="text-4xl font-semibold font-Open_Sans lg:text-7xl">
+      CARROSSERIE - REPARATIONS </h1>
   </div>
-  <div class="bg-black flex justify-end  flex-col">
-    <div class="p-5 ">
-      <p class="font-Open_Sans text-md text-base-300">
-        Nous sommes spécialisés dans toutes les marques et modèles de véhicules. Nous sommes des mécaniciens honnêtes et
-        éthiques qui travaillent pour desservir la région Caennaise.
-      </p>
+  <div class=" bg-black">
+    <div class="lg:flex">
+      <div class="p-5 lg:w-1/2">
+        <p class="font-Open_Sans text-md text-base-300 lg:text-2xl lg:w-5/6">
+          Nous sommes spécialisés dans toutes les marques et modèles de véhicules. Nous sommes des mécaniciens honnêtes et
+          éthiques qui travaillent pour desservir la région Caennaise.
+        </p>
+      </div>
+
+      <div class="lg:pt-20 lg:w-1/2">
+        <img src="../assets/images/Réalisations/home1.png" alt="logo" class=" ml-5 pt-5 pr-5 mx-auto lg:ml-0 lg:pr-0 ">
+      </div>
     </div>
 
-    <div class="bg-black">
-      <img src="../assets/images/Réalisations/home1.png" alt="logo" class=" ml-5 pt-5 pr-5 mx-auto">
-    </div>
-
-    <div class="flex flex-col gap-10 py-20">
+    <div class="gap-10 py-20  lg:py-32 test">
       <HomeIcon :description="'Des mécaniciens en qui vous pouvez avoir confiance'">
         <WrenchScrewdriverIcon class="w-20 h-20 text-white stroke-1" />
       </HomeIcon>
@@ -89,7 +84,28 @@
 import HomeIcon from '@/components/HomeIcon.vue'
 import Footer from '@/components/Footer.vue'
 import SocialsNetwork from '../components/SocialsNetwork.vue';
+import HomeLogo from '../components/HomeLogo.vue';
 import { WrenchScrewdriverIcon, UsersIcon, KeyIcon } from '@heroicons/vue/24/outline'
 
 
 </script>
+
+<style>
+  .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (min-width: 700px) {
+    .test {
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+    }
+  }
+</style>
+
+```

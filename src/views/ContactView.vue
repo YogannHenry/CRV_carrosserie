@@ -8,7 +8,7 @@
       <h3 class="text-lg pb-5 font-Dancing_Script text-white">Carrosserie - Réparations</h3>
     </div>
 
-    <GoogleMap api-key="AIzaSyDwSMAXe5qpgMnfz4XKwc-7aBAI7IQN9a8" style="width: 100%; height: 300px" :center="center" class="px-5 lg:px-40"
+    <GoogleMap api-key="" style="width: 100%; height: 300px" :center="center" class="px-5 lg:px-40"
       :zoom="14">
       <Marker :options="{ position: center }" />
     </GoogleMap>
